@@ -1,0 +1,40 @@
+.tododiv{
+    width: 80%;
+    display: flex;
+    background-color: grey;
+    margin: 5px;
+    flex-direction: column;
+    text-align: left;
+    height: auto;
+    padding: 10px;
+}
+.todotitle{
+    font-size:large;
+}
+.tododesc{
+    font-size: medium;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    display: flex;
+    background-color: grey;
+    margin: 5px;
+}
+.todo:hover{
+    background-color: red;
+}
+.deletebutton{
+  margin-top: 50px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+}
+.deletebutton:hover {
+    background-color: orangered;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
